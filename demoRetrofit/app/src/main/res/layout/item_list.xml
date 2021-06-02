@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+    />
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvNumeroSeminari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text ="131"
+        />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvTitol"
+            android:layout_width="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            tools:text ="Motores Híbridos"
+        />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvEmpresaOrganitzadora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text ="OPEL ESPAÑA"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>
